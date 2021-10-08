@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-var goPath string = os.Getenv("GOPATH")
+var goPath string = os.Getenv("GOROOT")
 
 func main() {
 	mux := http.NewServeMux()
